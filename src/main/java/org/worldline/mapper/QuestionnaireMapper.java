@@ -28,6 +28,7 @@ public class QuestionnaireMapper {
         questionnaire.setTitre(questionnaireDTO.getTitre());
         questionnaire.setDescription(questionnaireDTO.getDescription());
         questionnaire.setLangue(questionnaireDTO.getLangue());
+        questionnaire.setQuestions(questionnaireDTO.getQuestions());
         return questionnaire;
     }
 
